@@ -4,11 +4,11 @@
     android:layout_height="wrap_content"
     android:clickable="true"
     android:foreground="?attr/selectableItemBackground"
+    android:background="@drawable/back"
     android:paddingLeft="@dimen/activity_margin"
     android:paddingTop="@dimen/dimen_10"
     android:paddingRight="@dimen/activity_margin"
     android:paddingBottom="@dimen/dimen_10">
-
     <TextView
         android:id="@+id/dot"
         android:layout_width="wrap_content"
@@ -18,8 +18,7 @@
         android:includeFontPadding="false"
         android:lineSpacingExtra="0dp"
         android:textColor="@color/colorAccent"
-        android:textSize="@dimen/dot_text_size"
-        android:background="@drawable/back"/>
+        android:textSize="@dimen/dot_text_size" />
 
     <TextView
         android:id="@+id/timestamp"
@@ -36,6 +35,7 @@
         android:layout_below="@id/timestamp"
         android:layout_toRightOf="@id/dot"
         android:textColor="@color/note_list_text"
-        android:textSize="@dimen/note_list_text" />
+        android:textSize="@dimen/note_list_text"
+        />
 
 </RelativeLayout>
